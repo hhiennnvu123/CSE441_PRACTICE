@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Subactivity">
+    tools:context=".Sub1Activity">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -16,17 +16,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Xin chào CR24 "
+            android:text="Xin chào CR24"
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@android:color/holo_green_dark"
             />
 
         <Button
-            android:id="@+id/btnok"
+            android:id="@+id/btnok1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -35,4 +34,5 @@
 
             />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
