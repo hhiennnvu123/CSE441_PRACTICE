@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
 // TODO Auto-generated method stub DecimalFormat dcf=new DecimalFormat("#.00"); String doC = edtdoC.getText()+"";
 //
-            int C=Integer.parseInt(doC); edtdoF.setText(""+dcf.format(C*1.8+32));
+            int C=Integer.parseInt(doC); edtdoF.setText(""+dcf.format(C*1.8+32));;;;
 
         }
         });
