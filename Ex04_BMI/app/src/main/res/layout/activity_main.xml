@@ -17,7 +17,7 @@
                 <TextView
                     android:background="#A5EBAC"
                     android:gravity="center"
-                    android:text=""
+                    android:text="Chuong trinh tinh chi so BMI"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
                 <TableRow>
@@ -28,7 +28,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:labelFor="@id/name"
-                        android:text=""
+                        android:text="Nhap ten: "
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
@@ -50,7 +50,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:labelFor="@id/chieu_cao"
-                        android:text=""
+                        android:text="Chieu cao:"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
@@ -73,7 +73,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:labelFor="@id/can_nang"
-                        android:text=""
+                        android:text="Can nang: "
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginVertical="20dp"
-                android:text=""
+                android:text="Tinh BMI"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <TextView
