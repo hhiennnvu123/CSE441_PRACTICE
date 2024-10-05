@@ -27,12 +27,12 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:labelFor="@id/name"
+                        android:labelFor="@id/editTen"
                         android:text="Nhap ten: "
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
-                        android:id="@+id/name"
+                        android:id="@+id/editTen"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_weight="2"
@@ -49,13 +49,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:labelFor="@id/chieu_cao"
+                        android:labelFor="@id/editChieucao"
                         android:text="Chieu cao:"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
 
-                        android:id="@+id/chieu_cao"
+                        android:id="@+id/editChieucao"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_weight="2"
@@ -72,13 +72,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:labelFor="@id/can_nang"
+                        android:labelFor="@id/editCannang"
                         android:text="Can nang: "
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
                     <EditText
 
-                        android:id="@+id/can_nang"
+                        android:id="@+id/editCannang"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_weight="2"
@@ -88,23 +88,58 @@
                         tools:ignore="VisualLintTextFieldSize" />
                 </TableRow>
 
+                <Button
+                    android:id="@+id/btnBMI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="20dp"
+                    android:text="Tinh BMI"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:labelFor="@id/editCannang"
+                        android:text="BMI =  "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <EditText
+                        android:id="@+id/editBMI"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:importantForAutofill="no"
+                        android:inputType="number|numberDecimal"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintTextFieldSize" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:labelFor="@id/editCannang"
+                        android:text="Chuan doan:  "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <EditText
+                        android:id="@+id/editChuanDoan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:importantForAutofill="no"
+                        android:inputType="number|numberDecimal"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintTextFieldSize" />
+                </TableRow>
 
             </TableLayout>
-            <Button
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginVertical="20dp"
-                android:text="Tinh BMI"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-            <TextView
-                android:id="@+id/chuan_doan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
         </LinearLayout>
     </ScrollView>
 </layout>
