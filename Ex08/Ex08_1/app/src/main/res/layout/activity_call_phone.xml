@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
-    <TextView
 
+    <TextView
         android:text="Input Phone Number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,10 +29,12 @@
             android:layout_weight="1"
             android:textSize="40sp" />
 
+        <!-- ImageButton with a drawable resource -->
         <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/phone"
-            android:id="@+id/btncall" />
+            android:layout_height="wrap_content"
+            android:id="@+id/btncall"
+            android:src="@drawable/download"/>
     </LinearLayout>
 
     <Button
@@ -43,3 +45,4 @@
         android:textSize="24sp"
         android:textStyle="normal|bold" />
 </LinearLayout>
+

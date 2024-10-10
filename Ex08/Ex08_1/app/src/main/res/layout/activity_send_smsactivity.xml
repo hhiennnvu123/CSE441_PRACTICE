@@ -29,7 +29,8 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/sms" android:id="@+id/btnsms" />
+            app:srcCompat="@drawable/sms"
+            android:id="@+id/btnsms" />
     </LinearLayout>
 
     <Button
