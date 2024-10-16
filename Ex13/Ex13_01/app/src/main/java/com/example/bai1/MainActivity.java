@@ -21,6 +21,28 @@ public class MainActivity extends AppCompatActivity {
         singleComplete = (AutoCompleteTextView) findViewById(R.id.editauto);
         ArrayAdapter myadapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1,arr
+        );
+        singleComplete.setAdapter(myadapter);
+        multiComplete = (MultiAutoCompleteTextView) findViewById(R.id.multiAutoCompleteTextView1);
+        multiComplete.setAdapter(new ArrayAdapter<String>(
+                this, android.R.layout.simple_list_item_1,arr
+        ));
+        multiComplete.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+        singleComplete.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                selection.setText(singleComplete.getText());
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
         });
     }
 }
