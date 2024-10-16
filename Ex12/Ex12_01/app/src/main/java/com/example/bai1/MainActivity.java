@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 tx1.setText("Điện thoại được chọn "+i+" : "+arr1[i]);
-            
+
         });
     }
 }
