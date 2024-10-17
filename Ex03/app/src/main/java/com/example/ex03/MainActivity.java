@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int a = Integer.parseInt("0" +edt1.getText());
                 int b = Integer.parseInt("0" +edt2.getText());
-                edt3.setText("A - B = " + (a -b))
+                edt3.setText("A - B = " + (a -b));
             }
         });
 
