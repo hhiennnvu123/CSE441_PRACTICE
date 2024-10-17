@@ -36,6 +36,5 @@ public class MyArrayAdapter extends ArrayAdapter<Phone> {
         imageView.setImageResource(phone.getImageResource());
         textView.setText(phone.getName());
 
-        return convertView;
     }
 }
