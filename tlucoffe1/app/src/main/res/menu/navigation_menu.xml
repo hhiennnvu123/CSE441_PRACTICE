@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cafe"
+        android:title="Cafe" />
+    <item
+        android:id="@+id/nav_juice"
+        android:title="Nước ép trái cây" />
+    <item
+        android:id="@+id/nav_tea"
+        android:title="Trà đặc biệt" />
+    <item
+        android:id="@+id/nav_sweet"
+        android:title="Bánh ngọt" />
+    <item
+        android:id="@+id/nav_salty"
+        android:title="Bánh mặn" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Cài đặt" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Đăng xuất" />
+</menu>
